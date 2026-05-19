@@ -11,8 +11,8 @@ import os
 # 🤖 TELEGRAM CONFIG
 # =====================================================
 
-BOT_TOKEN = "8929362509:AAES5eVT4zFeasfITxEI5MwDsKZDpbafI10"
-CHAT_ID = "898809138"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 DB_NAME = "psu_jobs.db"
 
